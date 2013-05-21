@@ -6291,15 +6291,17 @@ a.badge:focus {
 }
  
 .features {
-  margin-top: 50px;
+  margin-top: 60px;
   margin-bottom: 80px;
 }
 
 .features-label {
-  font-family: 'Oxygen', Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 40px;
+  font-family: 'Coda', cursive;
+  font-size: 50px;
   font-weight: bold;
-  margin-top: 150px;
+  color: #CFCFCF;
+  margin-top: 170px;
+  margin-left: 100px;
   -moz-transform: rotate(-90deg);
   -webkit-transform: rotate(-90deg);
   transform: rotate(-90deg);
@@ -6312,4 +6314,26 @@ a.badge:focus {
   letter-spacing: 0px;
 }
 
+.padding-top-30 {
+  margin-top: 150px;
+}
+
+.attribute {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.in-the-box-label {
+  font-family: 'Coda', cursive;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 60px;
+  color: #CFCFCF;
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+.in-the-box-label-line2 {
+  font-size: 70px;
+}
 
