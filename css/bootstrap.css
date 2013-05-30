@@ -6314,7 +6314,7 @@ a.badge:focus {
   letter-spacing: 0px;
 }
 
-.padding-top-30 {
+.padding-top-150 {
   margin-top: 150px;
 }
 
@@ -6347,4 +6347,16 @@ a.badge:focus {
 #black-hawk-label {
   word-spacing: -1px;
   letter-spacing: -4px;
+}
+
+.sikorsky-logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+}
+
+.officially-licensed-label {
+  margin-top: 30px;
+  text-align: center;
 }
