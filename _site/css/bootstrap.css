@@ -6300,17 +6300,13 @@ a.badge:focus {
   font-size: 50px;
   font-weight: bold;
   color: #CFCFCF;
-  margin-top: 170px;
-  margin-left: 100px;
-  -moz-transform: rotate(-90deg);
-  -webkit-transform: rotate(-90deg);
-  transform: rotate(-90deg);
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .feature-name {
   text-align: center;
-  font-size: 10px;
+  font-size: 14px;
   letter-spacing: 0px;
 }
 
