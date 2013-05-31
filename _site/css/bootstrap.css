@@ -6301,7 +6301,11 @@ a.badge:focus {
   font-weight: bold;
   color: #CFCFCF;
   text-align: center;
-  margin-bottom: 20px;
+  margin-top: 250px;
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
 }
 
 .feature-name {
@@ -6327,6 +6331,7 @@ a.badge:focus {
   color: #CFCFCF;
   margin-top: 0px;
   margin-left: 0px;
+
 }
 
 .in-the-box-label-line2 {
