@@ -6250,7 +6250,7 @@ a.badge:focus {
   background-color: #000000;
 }
 
-/***Product Page******************/
+/***Product Page (XDrone)******************/
 
 .container-narrow {
   margin: 0 auto;
@@ -6342,6 +6342,12 @@ a.badge:focus {
   font-family: 'Coda', cursive;
   color: #CFCFCF;
 }
+
+.big-image {
+  text-align: center;
+  margin-top: 60px;
+}
+
 
 /***Black Hawk Page******************/
 
