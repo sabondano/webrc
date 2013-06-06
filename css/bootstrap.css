@@ -6169,15 +6169,31 @@ a.badge:focus {
   .bigheadline {
     margin-top: 25px;
     margin-bottom: 15px;
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
-    color: inherit;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: -2px;
+    color: #484745;
+    text-align: center;
+    width: auto;
 
   }
 
-  .cta {
-    margin-top: 50px;
+  .subheadline {
+    color: #868686;
+    font-size: 25px;
+    font-weight: 500;
+    height: 82px;
+    letter-spacing: normal;
+    font-family: 'Oxygen', Helvetica Neue, Helvetica, Arial, sans-serif;
+    line-height: 41px;
+    margin-top: 0px;
+    opacity: 1;
+    position: relative;
+    text-align: center;
+  }
+
+  .btn-orange {
+    color: #F04831;
   }
 
   .copyright {
@@ -6188,7 +6204,7 @@ a.badge:focus {
   }
 
 .intro {
-  background-color: #F5F5F5;
+  background-color: #F4F1ED;
   padding-bottom: 100px;
 }
 
@@ -6200,7 +6216,7 @@ a.badge:focus {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   
-  border-top: 20px solid #F5F5F5;
+  border-top: 20px solid #F4F1ED;
 }
 
 
