@@ -6364,6 +6364,13 @@ a.badge:focus {
   margin-top: 60px;
 }
 
+.middle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+  }
+
 
 /***Black Hawk Page******************/
 
