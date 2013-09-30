@@ -6196,16 +6196,9 @@ a.badge:focus {
     color: #F04831;
   }
 
-  .copyright {
-    color: #777777;
-    margin-top: 400px;
-    margin-bottom: 100px;
-    text-align: center;
-  }
-
 .intro {
   background-color: #F4F1ED;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 .arrow-down {
@@ -6215,10 +6208,35 @@ a.badge:focus {
   height: 0; 
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  
   border-top: 20px solid #F4F1ED;
 }
 
+.page-header {
+  margin-top: 60px;
+}
+
+.thumbnail {
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 40px 0px 30px 0px;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  font-size: 1em;
+  font-weight: 200;
+  background-color: #222222;
+  color: #808080;
+  text-align: center;
+}
+
+footer h4, footer strong {
+  color: #FFFFFF;
+}
+
+.copyright {
+  margin-top: 40px;
+}
 
 #xdroneslogan {
   font-family: 'Oxygen', Helvetica Neue, Helvetica, Arial, sans-serif;
@@ -6231,7 +6249,7 @@ a.badge:focus {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 25px;
+  margin-top: -50px;
 }
 
 .xdrone-learn-more {
@@ -6283,13 +6301,6 @@ a.badge:focus {
 
 .nav {
   padding-top: 20px;
-}
-
-.footer {
-  color: #777777;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  text-align: center;
 }
 
 .main-section {
