@@ -6428,6 +6428,11 @@ footer h4, footer strong {
   margin-top: 50px;
 }
 
+/***** Where to buy Modals *****/
+.modal-body .row-fluid {
+  margin-top: 20px;
+}
+
 /*****Test Page*****/
 
 .sideBoxMenu{
