@@ -16,25 +16,6 @@
 
 	<link rel="shortcut icon" href="favicon.png" type="image/png">
 	
-	<!-- Delay outboud click -->
-
-	<!-- The out outbound click is delayed by a fraction of a second to provide the browser more time to load the tracking code for outbound link -->
-
-	<script type="text/javascript">
-
-	function trackOutboundLink(link, category, action) {
-		try {
-			_gaq.push(['_trackEvent', category, action]);
-		} catch(err){}
-
-		setTimeout(function() {
-			document.location.href = link.href;
-		}, 100);
-	}
-	
-	</script>
-
-	<!-- / Delay outbound click -->
 
 	<!-- Google Analytics Code -->
 	<script type="text/javascript">
@@ -51,3 +32,23 @@
   		})();
 	</script>
 	<!-- / Google Analytics Code -->
+
+	<!-- Delay outboud click -->
+
+		<!-- The out outbound click is delayed by a fraction of a second to provide the browser more time to load the tracking code for outbound link -->
+
+		<script type="text/javascript">
+
+		function trackOutboundLink(link, category, action) {
+			try {
+				_gaq.push(['_trackEvent', category, action]);
+			} catch(err){}
+
+			setTimeout(function() {
+				document.location.href = link.href;
+			}, 100);
+		}
+		
+		</script>
+
+	<!-- / Delay outbound click -->
