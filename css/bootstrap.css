@@ -6433,6 +6433,11 @@ footer h4, footer strong {
   margin-top: 20px;
 }
 
+/***** Thumbnails *****/
+.thumbnails {
+  margin-top: 1px;
+}
+
 /*****Test Page*****/
 
 .sideBoxMenu{
