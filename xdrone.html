@@ -60,7 +60,7 @@ description: Fly remote control xdrone toy indoors/outdoors, master flips, trick
 				<h1>XDrone</h1>
 				<p class="lead">Fly indoors/outdoors, master flips, tricks and speeds of up to 20 mph.</p>
 				<p class="product-description muted">It's multi-rotor technology and auto-stabilizing sensors allow the XDrone to smoothly fly up/down, turn left/right, fly forward/backward and lean left/right.</p>
-				<a onClick="_gaq.push(['_trackEvent', 'Buy Now Button', 'purchase XDrone', 'Clicked', 1, false]);" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CHMVRUW86V7FG" class="btn btn-large btn-block btn-success">I Want It</a>
+				<a href="#myModal" role="button" data-toggle="modal" class="btn btn-large btn-block btn-success" type="button" onClick="_gaq.push(['_trackEvent', 'I Want It Button', 'Clicked I Want It Button For XDrone', 'I Want It Button Above Fold', 1, false]);">I Want It</a>
 			</div>
 		</div>
 	</div>
@@ -179,11 +179,51 @@ description: Fly remote control xdrone toy indoors/outdoors, master flips, trick
 	<div class="big-image row-fluid">
 		<img id="xdroneimage" src="img/xdrone/xdrone.png" alt="XDrone">
 		<div class="span4 offset4">
-			<a onClick="_gaq.push(['_trackEvent', 'Buy Now Button', 'purchase XDrone', 'Clicked', 1, false]);" href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CHMVRUW86V7FG" class="btn btn-large btn-block btn-success">I Want It</a>
+			<a href="#myModal" role="button" data-toggle="modal" class="btn btn-large btn-block btn-success" type="button" onClick="_gaq.push(['_trackEvent', 'I Want It Button', 'Clicked I Want It Button For XDrone', 'I Want It Button Above Fold', 1, false]);">I Want It</a>
 		</div>
 	</div>
 
 	<!-- /Big XDrone Image -->
+
+	<!-- Modal (Where To Buy) -->
+	<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-header">
+	    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+	    <h3 id="myModalLabel">Where to Buy</h3>
+	  </div>
+	  <div class="modal-body">
+	  	<div class="row-fluid">
+	  		<div class="span6">
+			  	<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CHMVRUW86V7FG" onClick="trackOutboundLink(this, 'Outbound Links', 'Clicked To Buy At Paypal.com', 'Clicked To Buy XDrone', 1, false); return false;"><img src="https://www.paypalobjects.com/webstatic/mktg/logo/bdg_payments_by_pp_2line.png" border="0" alt="Payments by PayPal"></a>
+			  	<h4>Directly From Us</h4>
+			  	<p>Buy your XDrone directly from us, through Paypal.</p>
+			  	<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CHMVRUW86V7FG" onClick="trackOutboundLink(this, 'Outbound Links', 'Clicked To Buy At Paypal.com', 'Clicked To Buy XDrone', 1, false); return false;">Learn more about buying XDrone through Paypal</a>
+			</div>
+			<div class="span6">
+				<a href="http://amzn.com/B00FE8L552" onClick="trackOutboundLink(this, 'Outbound Links', 'Clicked To Buy At Amazon.com', 'Clicked To Buy XDrone', 1, false); return false;"><img src="https://images-na.ssl-images-amazon.com/images/G/01/associates/remote-buy-box/buy3._V192207739_.gif" alt="graphical button of buy from amazon.com"></a>
+				<h4>Amazon.com</h4>
+			  	<p>Buy your XDrone at Amazon.com.</p>
+			  	<a href="http://amzn.com/B00FE8L552" onClick="trackOutboundLink(this, 'Outbound Links', 'Clicked To Buy At Amazon.com', 'Clicked To Buy XDrone', 1, false); return false;">Learn more about buying XDrone at Amazon.com</a>
+			</div>
+	    </div>
+	  	<div class="row-fluid">
+	  		<div class="span6">
+			  	<a href="http://store.myfunkyplanet.com/webrc-xdrone/" onClick="trackOutboundLink(this, 'Outbound Links', 'Clicked To Buy At FunkyPlanet.com', 'Clicked To Buy XDrone', 1, false); return false;"><img src="img/where-to-buy/funky-planet-logo.png" alt="Funky Planet logo"></a>
+			  	<h4>Funky Planet Store</h4>
+			  	<p>Buy your XDrone at the Funky Planet Store, directly from us.</p>
+			  	<a href="http://store.myfunkyplanet.com/webrc-xdrone/" onClick="trackOutboundLink(this, 'Outbound Links', 'Clicked To Buy At FunkyPlanet.com', 'Clicked To Buy XDrone', 1, false); return false;">Learn more about buying XDrone at the Funky Planet Store</a>
+			</div>
+			<div class="span6">
+				<a href="http://www.toysrus.com/product/index.jsp?productId=23793336&cp=2255971.2257762.2290621" onClick="trackOutboundLink(this, 'Outbound Links', 'Clicked To Buy At ToysRUs.com', 'Clicked To Buy XDrone', 1, false); return false;"><img src="img/where-to-buy/toys-r-us-logo.jpg" alt="Toys R Us Logo"></a>
+				<h4>Toys"R"Us</h4>
+			  	<p>Buy your XDrone at Toys"R"Us.</p>
+			  	<a href="http://www.toysrus.com/product/index.jsp?productId=23793336&cp=2255971.2257762.2290621" onClick="trackOutboundLink(this, 'Outbound Links', 'Clicked To Buy At ToysRUs.com', 'Clicked To Buy XDrone', 1, false); return false;">Learn more about buying XDrone at Toys"R"Us</a>
+			</div>
+	    </div>
+	  </div>
+	</div>
+
+	<!-- /Modal (Where To Buy) -->
 
 	<!-- Details -->
 	<hr>
