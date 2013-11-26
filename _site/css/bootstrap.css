@@ -6309,7 +6309,11 @@ footer h4, footer strong {
 }
 
 .product-description {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.product-price {
+  margin-bottom: 20px;
 }
 
 .secondary-image {
