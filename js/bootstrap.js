@@ -2280,6 +2280,7 @@
  /* CUSTOMIZATIONS - After what came with Bootstrap
   * ================================================= */
 
+/* Smooth scrolling on home page above the fold */
 $("#start-here").click(function(e){
   e.preventDefault();
   var startHereId = $(this).attr("href");
