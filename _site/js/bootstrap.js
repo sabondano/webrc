@@ -2280,10 +2280,10 @@
  /* CUSTOMIZATIONS - After what came with Bootstrap
   * ================================================= */
 
-$("#start-here").click(function(){
+$("#start-here").click(function(e){
+  e.preventDefault();
   var startHereId = $(this).attr("href");
-  $("body").animate({scrollTop: $(startHereId).offset().top}, 1500);
-  return false;
+  $("html, body").animate({scrollTop: $(startHereId).offset().top}, 1500);
 });
 
 
