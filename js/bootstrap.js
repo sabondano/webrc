@@ -2274,3 +2274,16 @@
 
 
 }(window.jQuery);
+
+
+
+ /* CUSTOMIZATIONS - After what came with Bootstrap
+  * ================================================= */
+
+$("#start-here").click(function(){
+  var startHereId = $(this).attr("href");
+  $("body").animate({scrollTop: $(startHereId).offset().top}, 1500);
+  return false;
+});
+
+
