@@ -6212,20 +6212,28 @@ a.badge:focus {
     color: #F04831;
   }
 
-  .intro {
-    background: url(../img/xdrone-nano-cover.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 800px;
-  }
-
-  /* Smartphones ------*/
-  @media (min-device-width: 320px) and (max-device-width : 480px) {
+  /* Desktops and laptops ------*/
+  @media (min-width: 980px) {
 
     .intro {
-      background-attachment: scroll;
+      background: url(../img/xdrone-nano-cover-large.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 800px;
+    }
+  }
+
+  /* Smartphones to Tablets ------*/
+  @media (max-width: 979px) {
+    .intro {
+      background: url(../img/xdrone-nano-cover.jpg) no-repeat center center scroll;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      height: 765px;
     }
   }
 
