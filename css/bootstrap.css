@@ -6212,6 +6212,7 @@ a.badge:focus {
     color: #F04831;
   }
 
+
   /* Desktops and laptops ------*/
   @media (min-width: 980px) {
 
@@ -6228,11 +6229,25 @@ a.badge:focus {
   /* Smartphones to Tablets ------*/
   @media (max-width: 979px) {
     .intro {
-      background: url(../img/xdrone-nano-cover.jpg) no-repeat center center scroll;
+      background: url(../img/xdrone-nano-cover.jpg) no-repeat center center fixed;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
+      background-attachment: scroll;
+      height: 765px;
+    }
+  }
+
+  /* Devices with pixel ratio of minimum 1.25 and resolution of 120dpi --*/
+  @media (-webkit-min-device-pixel-ration: 1.25), min-resolution: 120dpi) {
+    .intro {
+      background: url(../img/xdrone-nano-cover.jpg) no-repeat center center fixed;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-attachment: scroll;
       height: 765px;
     }
   }
