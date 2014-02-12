@@ -6506,6 +6506,16 @@ footer h4, footer strong {
   margin-top: 1px; 
 }
 
+/***** Lamborghini Aventador ******/
+.in-the-box-lamborghini {
+  margin-top: 190px;
+  margin-bottom: 180px;
+}
+
+.lamborghini-controller {
+  margin-bottom: 180px;
+}
+
 /*****Test Page*****/
 
 .sideBoxMenu{
