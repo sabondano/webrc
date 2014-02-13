@@ -6507,6 +6507,16 @@ footer h4, footer strong {
 }
 
 /***** Lamborghini Aventador ******/
+#big-lamborghini-logo-wallpaper-style {
+  background: url(img/lamborghini-aventador/big-lamborghini-logo-with-background.jpg) no-repeat center center scroll; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  height: 600px; 
+  margin-top: 40px; 
+  margin-bottom: 50px;
+}
 .in-the-box-lamborghini {
   margin-top: 190px;
   margin-bottom: 180px;
@@ -6515,6 +6525,7 @@ footer h4, footer strong {
 .lamborghini-controller {
   margin-bottom: 180px;
 }
+
 
 /*****Test Page*****/
 
