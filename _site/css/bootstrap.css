@@ -6507,6 +6507,16 @@ footer h4, footer strong {
 }
 
 /***** Lamborghini Aventador ******/
+#big-lamborghini-logo-wallpaper-style {
+  background: url(img/lamborghini-aventador/big-lamborghini-logo-with-background.jpg) no-repeat center center scroll; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  height: 600px; 
+  margin-top: 40px; 
+  margin-bottom: 50px;
+}
 .in-the-box-lamborghini {
   margin-top: 190px;
   margin-bottom: 180px;
@@ -6515,6 +6525,40 @@ footer h4, footer strong {
 .lamborghini-controller {
   margin-bottom: 180px;
 }
+
+/***** Porsche 911 *****/
+#big-porsche-logo-wallpaper-style {
+  background-color: #FAB700;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover;
+  height: 500px;
+  padding-top: 60px;
+}
+
+#porshe-logo {
+  margin-bottom: 40px;
+}
+
+.black-line {
+  background-color: #000000;
+  width: 100%;
+  height: 23px;
+  margin-bottom: 5px;
+}
+
+.red-line {
+  background-color: #BF0404;
+  width: 100%;
+  height: 23px;
+  margin-bottom: 5px;
+}
+
+
+
+
+
 
 /*****Test Page*****/
 
