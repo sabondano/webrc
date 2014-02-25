@@ -6270,21 +6270,6 @@ a.badge:focus {
   margin-bottom: 20px;
 }
 
-footer {
-  padding: 40px 0px 30px 0px;
-  margin-top: 80px;
-  margin-bottom: 0px;
-  font-size: 1em;
-  font-weight: 200;
-  background-color: #222222;
-  color: #808080;
-  text-align: center;
-}
-
-footer h4, footer strong {
-  color: #FFFFFF;
-}
-
 .copyright {
   margin-top: 40px;
 }
@@ -6557,8 +6542,72 @@ footer h4, footer strong {
 }
 
 
+/****** Footer related *****/
 
+footer {
+  padding: 40px 0px 30px 0px;
+  margin-top: 80px;
+  margin-bottom: 0px;
+  font-size: 1em;
+  font-weight: 200;
+  background-color: #222222;
+  color: #808080;
+  text-align: center;
+}
 
+footer h4, footer strong {
+  color: #FFFFFF;
+}
+
+.nav-bar-footer {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 120px;
+}
+
+.nav-bar-footer > li > a {
+  color: #FFFFFF;
+  font-weight: bold;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: 32px;
+}
+
+.nav-bar-footer > li > a:hover {
+  background: none;
+}
+
+.no-cursor {
+  cursor: default;
+}
+
+.nav-bar-footer-sub-list {
+  padding-top: 0px;
+}
+
+.nav-bar-footer-sub-list > li > a {
+  color: #808080;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.nav-bar-footer-sub-list > li > a:hover {
+  background: none;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(255, 255, 255, 0.4), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(255, 255, 255, 0.4), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(255, 255, 255, 0.4), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(255, 255, 255, 0.4), rgba(0,0,0,0)); 
+}
+
+.last-section-footer {
+  margin-top: 60px;
+  margin-bottom: 90px;
+}
 
 
 /*****Test Page*****/
