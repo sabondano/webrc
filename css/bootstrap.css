@@ -6541,6 +6541,56 @@ a.badge:focus {
   margin-bottom: 5px;
 }
 
+/***** XDrone Pro *****/
+
+#galaxy1-background {
+  background: url(../img/xdrone-pro/galaxy2.jpg) no-repeat center center scroll; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  height: 600px; 
+  margin-top: 40px; 
+  margin-bottom: 50px;
+
+}
+
+#xdrone-pro-controller {
+  margin-top: 40px;
+
+}
+
+#galaxy2-background {
+  background: url(../img/xdrone-pro/galaxy1.jpg) no-repeat center center scroll; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  height: 600px; 
+  margin-top: 90px; 
+  margin-bottom: 90px;
+
+}
+
+#xdrone-pro-flipping {
+  margin-top: 80px;
+}
+
+.in-the-box-xdrone-pro {
+  margin-top: 190px;
+  margin-bottom: 190px;
+}
+
+.features-xdrone-pro {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.attribute-xdrone-pro {
+  margin-top: 70px;
+}
+
+
 
 /****** Footer related *****/
 
