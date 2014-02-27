@@ -6590,6 +6590,70 @@ a.badge:focus {
   margin-top: 70px;
 }
 
+#xdrone-pro-callouts {
+  background: url(../img/xdrone-pro/xdrone-pro-showing-camera-700x450.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  height: 450px; 
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#xdrone-pro-callouts ul {
+  list-style-type: none;
+}
+
+#callout-circle-1 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  top: 255px;
+  left: 325px;
+}
+
+#callout-circle-2 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  top: 132px;
+  left: 91px;
+}
+
+#callout-circle-3 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  bottom: 40px;
+  left: 520px;
+}
+
+#callout-circle-4 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  bottom: 171px;
+  left: 352px;
+  transform: rotate(180deg);
+   -moz-transform: rotate(180deg);
+   -webkit-transform: rotate(180deg);
+}
+
+#callout-circle-1:hover,
+#callout-circle-2:hover,
+#callout-circle-3:hover,
+#callout-circle-4:hover {
+  opacity: 1;
+}
 
 
 /****** Footer related *****/

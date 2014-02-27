@@ -2287,4 +2287,14 @@ $("#start-here").click(function(e){
   $("html, body").animate({scrollTop: $(startHereId).offset().top}, 1500);
 });
 
+/* Show callouts on XDrone Pro's page on hover */
+$('#callouts').children().popover();
+ 
+
+
+
+
+
+
+
 
