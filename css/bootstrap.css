@@ -6655,6 +6655,12 @@ a.badge:focus {
   opacity: 1;
 }
 
+/***** Porsche Cayenne Page ******/
+
+#cayenne-big-image {
+  margin-top: -180px;
+  margin-bottom: 0px;
+}
 
 /****** Footer related *****/
 
