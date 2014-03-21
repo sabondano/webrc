@@ -6662,6 +6662,25 @@ a.badge:focus {
   margin-bottom: 0px;
 }
 
+/***** Mini Cooper Page ******/
+
+#big-mini-cooper-logo-wallpaper-style {
+  background: url(../img/mini-cooper/big-mini-cooper-with-background.jpg) no-repeat center center scroll; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  height: 600px; 
+  margin-top: 40px; 
+  margin-bottom: 50px;
+
+}
+
+#mini-cooper-big-image {
+  margin-top: -60px;
+  margin-bottom: 30px;
+}
+
 /****** Footer related *****/
 
 footer {
