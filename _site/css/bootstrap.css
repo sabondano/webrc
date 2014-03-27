@@ -6681,6 +6681,19 @@ a.badge:focus {
   margin-bottom: 30px;
 }
 
+/***** Mercedes Benz *****/
+
+#big-mercedes-benz-logo-wallpaper-style {
+  background: black no-repeat center center scroll; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  height: 480px; 
+  margin-top: 40px; 
+  margin-bottom: 50px;
+}
+
 /****** Footer related *****/
 
 footer {
