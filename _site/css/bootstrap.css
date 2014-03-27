@@ -6684,14 +6684,18 @@ a.badge:focus {
 /***** Mercedes Benz *****/
 
 #big-mercedes-benz-logo-wallpaper-style {
-  background: black no-repeat center center scroll; 
+  background: url(../img/mercedes-benz-slk350/mercedes-benz-logo.jpg) no-repeat center center scroll; 
   -webkit-background-size: cover; 
   -moz-background-size: cover; 
   -o-background-size: cover; 
   background-size: cover; 
-  height: 480px; 
+  height: 600px; 
   margin-top: 40px; 
   margin-bottom: 50px;
+}
+
+#mercedes-benz-logo {
+  
 }
 
 /****** Footer related *****/
