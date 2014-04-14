@@ -2287,6 +2287,13 @@ $("#start-here").click(function(e){
   $("html, body").animate({scrollTop: $(startHereId).offset().top}, 1500);
 });
 
+/* Smooth scrolling on home page (below the fold where it says scroll) */
+$("#scroll-to").click(function(e){
+  e.preventDefault();
+  var startHereId = $(this).attr("href");
+  $("html, body").animate({scrollTop: $(startHereId).offset().top}, 1500);
+});
+
 /* Show callouts on XDrone Pro's page on hover */
 $('#callouts').children().popover();
  
