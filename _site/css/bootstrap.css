@@ -6471,6 +6471,7 @@ a.badge:focus {
   color: #222222;
   margin-top: 0px;
   margin-left: 0px;
+  text-rendering: optimizelegibility;
 
 }
 
@@ -6492,6 +6493,7 @@ a.badge:focus {
 .details-label {
   font-family: 'Coda', cursive;
   color: #222222;
+  text-rendering: optimizelegibility;
 }
 
 .big-image {
@@ -6541,6 +6543,77 @@ a.badge:focus {
 .details-xdrone-nano {
   margin-top: 30px;
   margin-bottom: 120px;
+}
+
+#xdrone-nano-callouts {
+  background: url(../img/xdrone-nano/xdrone-nano-angle-700x450.png) no-repeat center center scroll;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  height: 450px; 
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#xdrone-nano-callouts ul {
+  list-style-type: none;
+}
+
+#xdrone-nano-callout-circle-1 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  top: 275px;
+  left: 440px;
+  transform: rotate(270deg);
+   -moz-transform: rotate(270deg);
+   -webkit-transform: rotate(270deg);
+}
+
+#xdrone-nano-callout-circle-2 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  top: 100px;
+  left: 70px;
+  transform: rotate(90deg);
+   -moz-transform: rotate(90deg);
+   -webkit-transform: rotate(90deg);
+}
+
+#xdrone-nano-callout-circle-3 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  bottom: 40px;
+  left: 520px;
+}
+
+#xdrone-nano-callout-circle-4 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  bottom: 171px;
+  left: 352px;
+  transform: rotate(180deg);
+   -moz-transform: rotate(180deg);
+   -webkit-transform: rotate(180deg);
+}
+
+#xdrone-nano-callout-circle-1:hover,
+#xdrone-nano-callout-circle-2:hover,
+#xdrone-nano-callout-circle-3:hover,
+#xdrone-nano-callout-circle-4:hover {
+  opacity: 1;
 }
 
 
