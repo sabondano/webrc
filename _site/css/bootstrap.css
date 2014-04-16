@@ -6507,6 +6507,43 @@ a.badge:focus {
   }
 
 
+/****** XDrone Nano Page ***********/
+
+#xdrone-nano-background-blurred {
+  background: url(../img/xdrone-nano/xdrone-nano-background-blurred.jpg) no-repeat center center scroll; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  height: 600px; 
+  margin-top: 40px; 
+  margin-bottom: 50px;
+
+}
+
+#xdrone-nano-background {
+  background: url(../img/xdrone-nano/xdrone-nano-background.jpg) no-repeat center center scroll; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  height: 600px; 
+  margin-top: 90px; 
+  margin-bottom: 90px;
+
+}
+
+.in-the-box-xdrone-nano {
+  margin-top: 190px;
+  margin-bottom: 0px;
+}
+
+.details-xdrone-nano {
+  margin-top: 30px;
+  margin-bottom: 120px;
+}
+
+
 /***Black Hawk Page******************/
 
 #black-hawk-label {
