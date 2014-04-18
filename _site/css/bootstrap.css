@@ -6552,8 +6552,8 @@ a.badge:focus {
   -o-background-size: cover; 
   background-size: cover; 
   height: 450px; 
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 120px;
+  margin-bottom: 120px;
 }
 
 #xdrone-nano-callouts ul {
@@ -6615,6 +6615,11 @@ a.badge:focus {
 #xdrone-nano-callout-circle-4:hover {
   opacity: 1;
 }
+
+.faq {
+  margin-bottom: 120px;
+}
+
 
 
 /***Black Hawk Page******************/
