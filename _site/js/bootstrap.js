@@ -2297,7 +2297,7 @@ $("#scroll-to").click(function(e){
 /* Show/hide more-info for product on home page on hover */
 $('.thumbnail').on('mouseenter', function() {
 
-  // Calculate proportional margins and set them (depending on thumbnail size)
+  // Calculate proportional width and margins and set them (depending on thumbnail size)
   var thumbnailSize = $(this).parent().attr("class");
   if ( thumbnailSize == "span4" ) {
       $(this).find('.more-info').css({'margin-left': '22px'});
