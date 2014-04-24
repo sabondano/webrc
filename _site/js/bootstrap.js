@@ -2294,6 +2294,30 @@ $("#scroll-to").click(function(e){
   $("html, body").animate({scrollTop: $(startHereId).offset().top}, 1500);
 });
 
+/* Show/hide more-info for product on home page on hover */
+$('.thumbnail').on('mouseenter', function() {
+
+  // Calculate proportional margins and set them (depending on thumbnail size)
+  var thumbnailSize = $(this).parent().attr("class");
+  if ( thumbnailSize == "span4" ) {
+      $(this).find('.more-info').css({'margin-left': '22px'});
+  } else if ( thumbnailSize == "span6" ) {
+      $(this).find('.more-info').css({'width': '238px', 'margin-left': '76px'});
+  } else if ( thumbnailSize == "span12" ) {
+      $(this).find('.more-info').css({'width': '221px', 'margin-left': '327px'});
+  }
+
+  // animate (show) more-info box
+  $(this).find('.more-info').animate({'margin-top': '50px', 'opacity': '1'}, 'fast');
+});
+
+// animate (hide) more-info box
+$('.thumbnail').on('mouseleave', function() {
+  $(this).find('.more-info').animate({'margin-top': '65px', 'opacity': '0'}, 'fast');
+});
+
+
+
 /* Show callouts on XDrone Pro's and Nano's page on hover */
 $('#callouts').children().popover();
  

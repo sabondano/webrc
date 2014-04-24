@@ -6391,6 +6391,61 @@ a.badge:focus {
   background-color: #000000;
 }
 
+.price-label {
+  display: flex;
+  opacity: 0;
+  color: #555555;
+  font-weight: bold;
+  -moz-transform: rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  -o-transform: rotate(20deg);
+  transform: rotate(20deg);
+}
+
+a.thumbnail:hover,
+a.thumbnail:focus {
+  text-decoration: none !important;
+}
+
+.more-info {
+  position: absolute;
+  width: 189px;
+  margin-top: 65px;
+  padding: 20px;
+  padding-right: 39px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  border: 1px solid #ddd;
+  -webkit-border-radius: 10px;
+     -moz-border-radius: 10px;
+          border-radius: 10px;
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+     -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+          box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
+  -webkit-transition: all 0.2s ease-in-out;
+     -moz-transition: all 0.2s ease-in-out;
+       -o-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
+  background-color: rgba(50,50,50,0.85);
+  display: flex;
+  opacity: 0;
+  color: white;
+}
+
+.price {
+  text-align: center;
+  letter-spacing: 1.5px;
+  font-weight: bold;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.btn-learn-more {
+  text-align: center;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
 /***Product Page (XDrone)******************/
 
 .container-narrow {
