@@ -2294,6 +2294,23 @@ $("#scroll-to").click(function(e){
   $("html, body").animate({scrollTop: $(startHereId).offset().top}, 1500);
 });
 
+
+// Change brand headline automatically every 2 seconds
+  $("#dynamicWord").text("Car");
+  
+  function changeHeadline() {
+
+    setTimeout(function() { $("#dynamicWord").text("Helicopter").fadeIn(500); }, 2000);
+    setTimeout(function() { $("#dynamicWord").text("Quadcopter").fadeIn(); }, 4000);
+    setTimeout(function() { $("#dynamicWord").text("Car").fadeIn(); }, 6000);
+
+  }
+
+  changeHeadline();
+  setInterval(changeHeadline, 6250)
+
+
+
 /* Show/hide more-info for product on home page on hover */
 $('.thumbnail').on('mouseenter', function() {
 
