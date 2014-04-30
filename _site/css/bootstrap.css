@@ -6228,10 +6228,10 @@ a.badge:focus {
     font-size: 72px;
     font-weight: 800;
     line-height: 60px;
-    letter-spacing: -2px;
+    letter-spacing: -4px;
     color: #333333;
     text-align: center;
-    width: 940px;
+    width: auto;
     text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
     -webkit-transition: all 0.25s ease-in-out;
      -moz-transition: all 0.25s ease-in-out;
@@ -6444,7 +6444,9 @@ a.thumbnail:focus {
   margin-top: 10px;
 }
 
-
+#dynamicWord {
+  color: rgba(216, 56, 51, 1.0);
+}
 
 /***Product Page (XDrone)******************/
 

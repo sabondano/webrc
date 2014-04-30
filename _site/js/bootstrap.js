@@ -2296,18 +2296,28 @@ $("#scroll-to").click(function(e){
 
 
 // Change brand headline automatically every 2 seconds
-  $("#dynamicWord").text("Car");
-  
-  function changeHeadline() {
+var txt = new Array("Car", "Helicopter", "Quadcopter");
+var $contentHolder = $('#dynamicWord');
+(function show(i) {
 
-    setTimeout(function() { $("#dynamicWord").text("Helicopter").fadeIn(500); }, 2000);
-    setTimeout(function() { $("#dynamicWord").text("Quadcopter").fadeIn(); }, 4000);
-    setTimeout(function() { $("#dynamicWord").text("Car").fadeIn(); }, 6000);
+    $contentHolder.fadeOut(function(){
 
-  }
+        // Change color per rc-type      
+        if ( $("#dynamicWord").text() == "Car" ) {
+            $("#dynamicWord").css({'color': 'rgba(243, 202, 96, 1.0)'});
+        } else if ( $("#dynamicWord").text() == "Helicopter" ) {
+            $("#dynamicWord").css({'color': 'rgba(241, 114, 55, 1.0)'});
+        } else if ( $("#dynamicWord").text() == "Quadcopter" ) {
+            $("#dynamicWord").css({'color': 'rgba(220, 72, 60, 1.0)'});
+        }
 
-  changeHeadline();
-  setInterval(changeHeadline, 6250)
+        // Write rc-type and iterate through the different rc-types in array
+        $(this).text( txt[i] ).fadeIn(function(){
+            show( txt.length !== ++i ? i : 0 )
+        }).delay(1500);
+
+    })  
+})(0)
 
 
 
