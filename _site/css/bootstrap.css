@@ -6342,6 +6342,10 @@ a.badge:focus {
   border-top: 20px solid #F4F1ED;
 }
 
+#product-section {
+  margin-top: 60px;
+}
+
 .page-header {
   margin-top: 60px;
 }
@@ -6447,6 +6451,33 @@ a.thumbnail:focus {
 #dynamicWord {
   color: rgba(216, 56, 51, 1.0);
 }
+
+#why-us-section {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+#why-us-headline {
+  font-size: 3.5em;
+  font-weight: 900;
+  letter-spacing: -2px;
+  word-spacing: 0px;
+  margin-bottom: 20px;
+}
+
+#why-us-subheadline {
+  font-size: 3em;
+  font-weight: 400;
+  letter-spacing: -2px;
+  word-spacing: 0px;
+  margin-top: 60px;
+}
+
+#why-us-sentence {
+  font-size: 1.20em;
+  font-weight: 200;
+}
+
 
 /***Product Page (XDrone)******************/
 

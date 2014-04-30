@@ -2295,7 +2295,7 @@ $("#scroll-to").click(function(e){
 });
 
 
-// Change brand headline automatically every 2 seconds
+// Change brand headline automatically every X seconds
 var txt = new Array("Car", "Helicopter", "Quadcopter");
 var $contentHolder = $('#dynamicWord');
 (function show(i) {
