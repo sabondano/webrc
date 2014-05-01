@@ -2287,6 +2287,7 @@ $("#start-here").click(function(e){
   $("html, body").animate({scrollTop: $(startHereId).offset().top}, 1500);
 });
 
+
 /* Smooth scrolling on home page (below the fold where it says scroll) */
 $("#scroll-to").click(function(e){
   e.preventDefault();
@@ -2318,6 +2319,40 @@ var $contentHolder = $('#dynamicWord');
 
     })  
 })(0)
+
+// Show-hide feature explanations on why-us section on homepage
+
+/* 
+$(document).ready(function() {    
+    var contents = $(".feature-explanation");
+    animateElements(0);
+    function animateElements(index)  {
+        if (index == contents.length) return;
+        $(contents[index]).animate(
+            {"margin-top": "-30px"}, 
+            500, 
+            function() { animateElements(index + 1);}
+        );        
+    }
+});
+*/
+
+$(document).ready(function() {
+  $('.mask').on('click', function() {
+    if  ( !$(this).hasClass('flag') ) {
+        $(this).find('.feature-title-and-image').animate({'opacity': '0'}, 300);
+        $(this).find('.feature-explanation').animate({'margin-top': '0px'}, 500);
+        $(this).addClass('flag');
+    } else {
+        $(this).find('.feature-explanation').animate({'margin-top': '300px'}, 500);
+        $(this).find('.feature-title-and-image').animate({'opacity': '1'}, 300);
+        $(this).removeClass('flag');
+    }
+
+  });
+});
+
+
 
 
 
