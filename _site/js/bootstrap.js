@@ -2345,7 +2345,7 @@ $(document).ready(function() {
         $(this).addClass('flag');
     } else {
         $(this).find('.feature-explanation').animate({'margin-top': '300px'}, 500);
-        $(this).find('.feature-title-and-image').animate({'opacity': '1'}, 300);
+        $(this).find('.feature-title-and-image').delay(250).animate({'opacity': '1'}, 500);
         $(this).removeClass('flag');
     }
 
