@@ -6463,6 +6463,7 @@ a.thumbnail:focus {
   letter-spacing: -2px;
   word-spacing: 0px;
   margin-bottom: 20px;
+  color: rgba(220, 72, 60, 1.0);
 }
 
 #why-us-subheadline {
@@ -6494,7 +6495,7 @@ a.thumbnail:focus {
 
 .mask {
     float: left;
-    background-color: #f2f0eb;
+    background-color: transparent;
     border-top: 1px solid white;
     border-right: 1px solid #dad8d3;
     border-bottom: 1px solid #dad8d3;
@@ -6504,9 +6505,14 @@ a.thumbnail:focus {
     overflow : hidden;
 }
 
+.front {
+  background-color: #f2f0eb;
+  width: 310px;
+  height: 240px;
+}
+
 .feature-title-and-image {
   position: absolute;
-  z-index: 1;
   width: 150px;
   height: 150px;
   margin-left: 77.5px;
@@ -6521,8 +6527,8 @@ a.thumbnail:focus {
     background-color : #484745;
     width: 310px;
     height: 240px;
-    margin-top: 240px;  
-    z-index: 2;
+    margin-top: -240px;  
+    opacity: 0;
 }
 
 

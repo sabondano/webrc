@@ -2322,30 +2322,18 @@ var $contentHolder = $('#dynamicWord');
 
 // Show-hide feature explanations on why-us section on homepage
 $(document).ready(function() {
-
-  $('.mask').on('click', function() {
-    if  ( !$(this).hasClass('flag') ) {
-        $(this).find('.feature-title-and-image').animate({'opacity': '0'}, 300);
-        $(this).find('.feature-explanation').animate({'margin-top': '0px'}, 500);
-        $(this).addClass('flag');
-    } else {
-        $(this).find('.feature-explanation').animate({'margin-top': '240px'}, 500);
-        $(this).find('.feature-title-and-image').delay(250).animate({'opacity': '1'}, 500);
-        $(this).removeClass('flag');
-    }
-  });
-});
-
-// Bounce feature explanations hover
-$(document).ready(function() {
   $('.mask').on('mouseenter', function() {
-    $(this).find('.feature-explanation').addClass('animated').addClass('bounce');
+    $(this).find('.front').removeClass('fadeIn').addClass('animated fadeOut');
+    $(this).find('.feature-explanation').removeClass('fadeOut').addClass('animated fadeIn');
+
   });
 
   $('.mask').on('mouseleave', function() {
-    $(this).find('.feature-explanation').removeClass('animated').removeClass('bounce');
+    $(this).find('.feature-explanation').removeClass('fadeIn').addClass('animated fadeOut');
+    $(this).find('.front').removeClass('fadeOut').addClass('animated fadeIn');
   });
 });
+
 
 /* Show/hide more-info for product on home page on hover */
 $('.thumbnail').on('mouseenter', function() {
