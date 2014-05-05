@@ -2321,40 +2321,31 @@ var $contentHolder = $('#dynamicWord');
 })(0)
 
 // Show-hide feature explanations on why-us section on homepage
-
-/* 
-$(document).ready(function() {    
-    var contents = $(".feature-explanation");
-    animateElements(0);
-    function animateElements(index)  {
-        if (index == contents.length) return;
-        $(contents[index]).animate(
-            {"margin-top": "-30px"}, 
-            500, 
-            function() { animateElements(index + 1);}
-        );        
-    }
-});
-*/
-
 $(document).ready(function() {
+
   $('.mask').on('click', function() {
     if  ( !$(this).hasClass('flag') ) {
         $(this).find('.feature-title-and-image').animate({'opacity': '0'}, 300);
         $(this).find('.feature-explanation').animate({'margin-top': '0px'}, 500);
         $(this).addClass('flag');
     } else {
-        $(this).find('.feature-explanation').animate({'margin-top': '300px'}, 500);
+        $(this).find('.feature-explanation').animate({'margin-top': '240px'}, 500);
         $(this).find('.feature-title-and-image').delay(250).animate({'opacity': '1'}, 500);
         $(this).removeClass('flag');
     }
-
   });
 });
 
+// Bounce feature explanations hover
+$(document).ready(function() {
+  $('.mask').on('mouseenter', function() {
+    $(this).find('.feature-explanation').addClass('animated').addClass('bounce');
+  });
 
-
-
+  $('.mask').on('mouseleave', function() {
+    $(this).find('.feature-explanation').removeClass('animated').removeClass('bounce');
+  });
+});
 
 /* Show/hide more-info for product on home page on hover */
 $('.thumbnail').on('mouseenter', function() {
