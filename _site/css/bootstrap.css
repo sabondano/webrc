@@ -6501,7 +6501,6 @@ a.thumbnail:focus {
     border-bottom: 1px solid #dad8d3;
     width: 310px;
     height: 240px;
-    cursor: pointer;
     overflow : hidden;
 }
 
@@ -6546,6 +6545,15 @@ a.thumbnail:focus {
   font-size: 0.95em;
   font-weight: 300;
 }
+
+#dollar-prop-club-explanation {
+  margin-top: 10px;
+}
+
+#tune-up-service-explanation {
+  margin-top: 10px;
+}
+
 
 
 
