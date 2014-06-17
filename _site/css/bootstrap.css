@@ -7115,6 +7115,10 @@ hr.style-two {
 
 /*****About Us Page *****/
 
+#nav-about-page {
+  margin: -75px 15px 0px 0px;
+}
+
 #about-us-section {
   margin-top: 40px;
 }
