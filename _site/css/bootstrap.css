@@ -6159,55 +6159,6 @@ a.badge:focus {
 
 /***Custom Add After The Standard Bootstrap - HOME PAGE******/
 
-  .main-logo-top-left {
-    display: block;
-    margin-top: 0px;
-  }
-
-  .custom-pager {
-    margin: -50px 15px 0px 0px;
-  }
-
-  .custom-pager li > a {
-    color: #f5f5f5;
-    background-color: transparent;
-  }
-
-  .custom-pager li > a:hover,
-  .custom-pager li > a:focus {
-    text-decoration: none;
-    color: #0088cc;
-    background-color: #f5f5f5;
-  }
-
-  .bigheadline {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 50px;
-    line-height: 50px;
-    letter-spacing: -2px;
-    color: #FFFFFF;
-    text-align: center;
-    width: auto;
-    text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
-
-  }
-
-  .subheadline {
-    color: #FFFFFF;
-    font-size: 25px;
-    font-weight: 500;
-    height: 82px;
-    letter-spacing: normal;
-    font-family: 'Oxygen', Helvetica Neue, Helvetica, Arial, sans-serif;
-    line-height: 41px;
-    margin-top: 0px;
-    opacity: 1;
-    position: relative;
-    text-align: center;
-    text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
-  }
-
   .btn-orange {
     color: #F04831;
   }
@@ -6215,7 +6166,6 @@ a.badge:focus {
   #rc-types {
     position: absolute;
   }
-
 
   #brand-intro {
     background-color: #F4F1ED;
@@ -6293,45 +6243,6 @@ a.badge:focus {
   }
 
 
-  /* Desktops and laptops ------*/
-  @media (min-width: 980px) {
-
-    .intro {
-      background: url(../img/xdrone-nano-cover-large.jpg) no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      height: 800px;
-    }
-  }
-
-  /* Smartphones to Tablets ------*/
-  @media (max-width: 979px) {
-    .intro {
-      background: url(../img/xdrone-nano-cover.jpg) no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      background-attachment: scroll;
-      height: 765px;
-    }
-  }
-
-  /* Devices with pixel ratio of minimum 1.25 and resolution of 120dpi --*/
-  @media (-webkit-min-device-pixel-ration: 1.25), min-resolution: 120dpi) {
-    .intro {
-      background: url(../img/xdrone-nano-cover.jpg) no-repeat center center fixed;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-      background-attachment: scroll;
-      height: 765px;
-    }
-  }
-
 .arrow-down {
   margin-left: auto;
   margin-right: auto;
@@ -6343,7 +6254,7 @@ a.badge:focus {
 }
 
 #product-section {
-  margin-top: 700px;
+  margin-top: 0px;
 }
 
 .page-header {
@@ -6454,7 +6365,7 @@ a.thumbnail:focus {
 
 #why-us-section {
   padding-top: 80px;
-  padding-bottom: 100px;
+  padding-bottom: 550px;
 }
 
 #why-us-headline {
@@ -6554,7 +6465,10 @@ a.thumbnail:focus {
   margin-top: 10px;
 }
 
-
+#reasons-to-use-webrc {
+  margin-top: 20px;
+  margin-bottom: 90px;
+}
 
 
 
