@@ -6467,7 +6467,12 @@ a.thumbnail:focus {
 
 #reasons-to-use-webrc {
   margin-top: 20px;
-  margin-bottom: 90px;
+  margin-bottom: 60px;
+}
+
+.reasons-to-use-copy {
+  text-align: left;
+  margin-top: -30px;
 }
 
 
