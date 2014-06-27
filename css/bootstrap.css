@@ -6982,6 +6982,70 @@ a.thumbnail:focus {
   margin-bottom: 120px;
 }
 
+#iron-eagle-callouts ul {
+  list-style-type: none;
+}
+
+#iron-eagle-callout-circle-1 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  top: 350px;
+  left: 440px;
+  transform: rotate(270deg);
+   -moz-transform: rotate(270deg);
+   -webkit-transform: rotate(270deg);
+}
+
+#iron-eagle-callout-circle-2 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  top: 196px;
+  left: 152px;
+  transform: rotate(50deg);
+   -moz-transform: rotate(50deg);
+   -webkit-transform: rotate(50deg);
+}
+
+#iron-eagle-callout-circle-3 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  bottom: 40px;
+  left: 473px;
+  transform: rotate(180deg);
+   -moz-transform: rotate(180deg);
+   -webkit-transform: rotate(180deg);
+}
+
+#iron-eagle-callout-circle-4 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  bottom: 271px;
+  left: 266px;
+  transform: rotate(180deg);
+   -moz-transform: rotate(180deg);
+   -webkit-transform: rotate(180deg);
+}
+
+#iron-eagle-callout-circle-1:hover,
+#iron-eagle-callout-circle-2:hover,
+#iron-eagle-callout-circle-3:hover,
+#iron-eagle-callout-circle-4:hover {
+  opacity: 1;
+}
+
+
 #iron-eagle-background-blurred {
   background: url(../img/iron-eagle-2/iron-eagle-background-blurred.jpg) no-repeat center center scroll; 
   -webkit-background-size: cover; 
@@ -7018,6 +7082,7 @@ a.thumbnail:focus {
      -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
           box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);
 }
+
 
 /****** Footer related *****/
 
