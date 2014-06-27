@@ -6997,6 +6997,22 @@ a.thumbnail:focus {
   margin-top: 90px;
 }
 
+#iron-eagle-background {
+  background: url(../img/iron-eagle-2/iron-eagle-background.jpg) no-repeat center center scroll; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  height: 600px; 
+  margin-top: 90px; 
+  margin-bottom: 90px;
+
+}
+
+#iron-eagle-in-action {
+  margin-top: 40px;
+}
+
 
 /****** Footer related *****/
 
