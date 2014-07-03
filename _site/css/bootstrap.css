@@ -6475,6 +6475,10 @@ a.thumbnail:focus {
   margin-top: -30px;
 }
 
+.mask a {
+  text-decoration: none;
+}
+
 
 
 /***Product Page (XDrone)******************/
@@ -6594,6 +6598,9 @@ a.thumbnail:focus {
     margin-top: 0px;
   }
 
+#dpc-graphic-on-modal {
+  margin-top: -20px;
+}
 
 /****** XDrone Nano Page ***********/
 

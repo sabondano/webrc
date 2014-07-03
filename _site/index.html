@@ -101,11 +101,13 @@
 								<p class="feature-title">Dollar Prop Club</p>
 							</div>
 						</div>
-					    <div class="feature-explanation">
-					    	<img id="dollar-prop-club-explanation" src="img/dollar-prop-club-icon-small.png">
-					    	<div class="feature-explanation-title">Dollar Prop Club</div>
-					    	<div class="feature-explanation-content">Dollar Prop Club couldn't be simpler. Select one of our great air vehicles, pay one low monthly fee, and we send you new propellers right to your door. No more forgetting to buy new propellers. Plus, you get a 10% club discount on all WebRC products. </div>
-					    </div>
+					    <a href="#myModal" role="button" data-toggle="modal" type="button" onClick="ga('send', 'event', 'Dollar Prop Club Box', 'Clicked DPC box on home page', 'DPC box on why is webrc smarter section');">
+					    	<div class="feature-explanation">
+					    		<img id="dollar-prop-club-explanation" src="img/dollar-prop-club-icon-small.png">
+					    		<div class="feature-explanation-title">Dollar Prop Club</div>
+					    		<div class="feature-explanation-content">Dollar Prop Club couldn't be simpler. Select one of our great air vehicles, pay one low monthly fee, and we send you new propellers right to your door. No more forgetting to buy new propellers. Plus, you get a 10% club discount on all WebRC products. </div>
+					    	</div>
+						</a>
 					</div>
 				</div>
 				<div class="feature-row">
@@ -491,6 +493,58 @@
 
 
 	</div> <!-- /Product Section (Land Vehicles) -->
+
+	<!-- Modal (Dollar Prop Club) -->
+	<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	  <div class="modal-header">
+	    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+	    <h3 id="myModalLabel">Dollar Prop Club</h3>
+	  </div>
+	  <div class="modal-body">
+	  	<div class="row-fluid">
+	  		<div class="span8">
+	  			<p class="lead">Great RC flights for only a few bucks a month. Are you ready to join the ranks of our enlightened membership? </p>
+			  	<p>Dollar Prop Club couldn't be simpler. Select one of our great air vehicles, pay one low monthly fee, and we send you new propellers right to your door. No more forgetting to buy new propellers. Plus, you get a 10% club discount on all WebRC products. </p>
+
+			  	<!-- Choose vehicle and subscribe section -->
+			  	<div class="row-fluid text-center">
+			  		<div class="span8 offset2">
+			  			<!-- Copy-pasted code from paypal -->
+					  	<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+						<input type="hidden" name="cmd" value="_s-xclick">
+						<input type="hidden" name="hosted_button_id" value="9QJ245CWCY7H2">
+						<table>
+						<tr><td><input type="hidden" name="on0" value="Choose your RC vehicle:">Choose your RC vehicle:</td></tr><tr><td><select name="os0">
+							<option value="XDrone">XDrone </option>
+							<option value="XDrone Nano">XDrone Nano </option>
+							<option value="Iron Eagle 2">Iron Eagle 2 </option>
+							<option value="12 Inch Helicopter (Officially Licensed Replicas Collection)">12 Inch Helicopter (Officially Licensed Replicas Collection) </option>
+							<option value="Red Eagle">Red Eagle </option>
+							<option value="XDrone Pro">XDrone Pro </option>
+						</select> </td></tr>
+						</table>
+						<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+						<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+						</form>
+						<!-- /Copy-pasted code from paypal -->
+					</div>
+				</div>
+			  	<!-- /Choose vehicle and subscribe section -->
+			</div>
+			<div class="span4">
+				<div class="row-fluid"><img id="dpc-graphic-on-modal"class="middle" src="img/dollar-prop-club-icon.png"></div>
+				<ul>
+					<li>4 x Propellors</li>
+					<li>Delivered Monthly</li>
+					<li>25% Club Discount</li>
+				</ul>
+				<p class="text-center"><span class="lead">$1</span>/mo <br>+S&H</p>
+			</div>
+	  	</div>
+	  </div>
+	</div>
+
+	<!-- /Modal (Dollar Prop Club) -->
 
 	<footer>
 
