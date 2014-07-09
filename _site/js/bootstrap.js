@@ -2363,7 +2363,8 @@ $('.thumbnail').on('mouseleave', function() {
 $('#callouts').children().popover();
  
 
-/*menu handler*/
+/* Navigation Bar  - Assign active class to li if same as pathname
+*/
 $(document).ready(function() {
   $(function(){
     function stripTrailingSlash(str) {
