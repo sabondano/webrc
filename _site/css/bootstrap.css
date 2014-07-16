@@ -7189,6 +7189,30 @@ hr.style-two {
   margin-top: 40px;
 }
 
+/******WebRC Academy Page ******/
+#webrc-academy-main-content {
+  margin-top: 40px;
+}
+
+#webrc-academy-main-content img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#webrc-academy-main-content .row-fluid + .row-fluid img {
+  margin-top: 10px;
+}
+
+#webrc-academy-seal {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#list-of-courses {
+  margin-left: 20px;
+}
+
 /*****Test Page*****/
 
 .sideBoxMenu{
