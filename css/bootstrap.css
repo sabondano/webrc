@@ -7200,7 +7200,7 @@ hr.style-two {
   margin-right: auto;
 }
 
-#webrc-academy-main-content .row-fluid + .row-fluid img {
+#webrc-academy-main-content .row-fluid + .row-fluid .course {
   margin-top: 10px;
 }
 
@@ -7212,6 +7212,42 @@ hr.style-two {
 #list-of-courses {
   margin-left: 20px;
 }
+
+.course {
+  height: 300px;
+  width: 300px;
+}
+
+#quadcopters {
+  background: rgba(228, 222, 208, 1.0);
+}
+
+#helicopters {
+  background: rgba(171, 204, 189, 1.0);
+}
+
+#maintenance {
+  background: rgba(227, 47, 33, 1.0);
+}
+
+#you-build-it {
+  background: rgba(125, 190, 184, 1.0);
+}
+
+#quadcopters h2,
+#helicopters h2, 
+#maintenance h2, 
+#you-build-it h2 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.course:hover {
+  -moz-box-shadow:    inset 0 0 10px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+  box-shadow:         inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
 
 /*****Test Page*****/
 
