@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	{% include head.html %}
+
+</head>
+<body>
+
+	{% include navigation-bar-full-width.html %}
+
+	<!-- main content area -->
+		<div id="webrc-academy-main-content" class="container">
+			<h1>WebRC Academy</h1>
+			<p class="lead">Learn how to fly remote control helicopters and quadcopters, how to service your RC vehicles or how to build one yourself. Suggest a course if you don't see what you're looking for.</p>
+
+			<div class="row-fluid">
+				<div class="span8">
+					<!-- body content -->
+						<div id="lesson-content">	
+							{{ content }}
+						</div>
+				</div>
+				<div class="span4 simple-grey-border">
+					<!-- sidebar content -->
+					<div class="row-fluid">
+						<div class="span12">
+							<img id="webrc-academy-seal" src="{{ site.url }}/img/webrc-academy/webrc-academy-seal.png">
+							<p class="lead text-center">Official Student</p>
+							<hr>
+							<div id="list-of-courses">
+								<h4>Latest Courses</h4>
+								<ul class="unstyled">
+								  {% for post in site.posts %}
+								    <li>
+								      <a href="{{ post.url }}">{{ post.title }}</a>
+								    </li>
+								  {% endfor %}
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	{% include js.html %}
+
+	<footer>
+
+		{% include footer.html %}
+
+	</footer>
+
+</body>
+
+</html>
