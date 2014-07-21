@@ -2,7 +2,7 @@
 layout: academy
 title: How To Fly XDrone
 description: Learn the basics on how to fly your XDrone remote control quadcopter.
-category: Quadcopters
+categories: [quadcopters, xdrone]
 ---
 
 How To Fly XDrone
@@ -33,4 +33,3 @@ This lesson will guide you through the basic steps required to fly the XDrone an
 8. To turn counter clockwise push left joystick to the left. To turn clockwise push left joystick to the right.
 
 Now you know the basics on how to fly your XDrone. Get as much practice as you can under your belt. Once you have mastered hovering, try flying in patterns. Start by flying your XDrone in a square pattern, then a circle, then a figure 8. After you become an expert at flying in these patterns look for our article on how to do flips and barrel rolls.
-

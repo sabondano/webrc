@@ -23,22 +23,28 @@ description: Learn how to fly remote control helicopters and quadcopters, how to
 			<!-- body content -->
 			<div id="courses">
 				<div class="row-fluid">
-					<div id="quadcopters" class="span6 course">
-						<h2>Quadcopter Fundamentals</h2>
+					<div class="span6">
+						<h2>Try Quadcopters</h2>
+						<ul class="unstyled">
+							{% for post in site.categories.quadcopters %}
+								<li>
+						      		<a href="{{ post.url }}">{{ post.title }}</a>
+						    	</li>
+						  	{% endfor %}
+						</ul>
 					</div>
-					<div id="helicopters" class="span6 course">
-						<h2>RC Helicopter Fundamentals</h2>
+					<div class="span6">
+						<h2>Helicopter Basics</h2>
+						<ul class="unstyled">
+							{% for post in site.categories.helicopters %}
+								<li>
+						      		<a href="{{ post.url }}">{{ post.title }}</a>
+						    	</li>
+						  	{% endfor %}
+						</ul>
 					</div>
 				</div>
-				<div class="row-fluid">
-					<div id="maintenance" class="span6 course">
-						<h2>General RC Maintenance</h2>
-					</div>
-					<div id="you-build-it" class="span6 course">
-						<h2>You-Build-It Remote Control</h2>
-					</div>
-				</div>
-			</div>		
+			</div>	
 		</div>
 		<div class="span4 simple-grey-border">
 			<!-- sidebar content -->
