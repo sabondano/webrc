@@ -8,11 +8,28 @@ categories: [quadcopters, xdrone]
 How To Fly XDrone
 -----------------
 
-The XDrone is a quadcopter with four different channels, a sophisticated auto-stabilization system, and the ability to perform flips in four different directions. If you've never flown a quadcopter or an RC helicopter before we recommend you start with a 2 or maximum 3 channel helicopter to learn the bascis of RC flying quads/helicopters. Once you've learned the basics you can come back and learn about how to fly the XDrone.
+**What exactly is this XDrone thing and who is this lesson for?**
 
-This lesson will guide you through the basic steps required to fly the XDrone and have a smooth first flight. The most important thing to remember is that the XDrone's sensors will attempt to calibrate themselves at the 3 second mark after turning the XDrone on (you turn it on by plugging in the battery). If the XDrone is not in a perfectly flat surface (the ground) 3 seconds after turning it on, the sensors won't be able to calibrate correctly.
+The [XDrone](http://webrc.co/xdrone.html) is a quadcopter with four different channels, a sophisticated auto-stabilization system, and the ability to perform flips in four different directions. If you've never flown a quadcopter or an RC helicopter before we recommend you start with a 2 or maximum 3 channel helicopter to learn the bascis of RC flying quads/helicopters. Once you've learned the basics you can come back and learn about how to fly the XDrone.  
 
-*Warning:* Before flying outdoors look for our article on how to use L1(power selector). You must set power to 100% when flying outdoors. Also, we recommend to not fly outdoors on windy days.
+
+**Overview**
+
+This lesson will guide you through the basic steps required to fly the XDrone and have a smooth first flight.  
+
+**Turning it on**
+
+Turn it on by plugging in the battery.  
+
+**Calibrating sensors/gyro**
+
+The most important thing to remember is that the XDrone's sensors will attempt to calibrate themselves at the 3 second mark after turning the XDrone on (you turn it on by plugging in the battery). If the XDrone is not in a perfectly flat surface (the ground) 3 seconds after turning it on, the sensors won't be able to calibrate correctly.  
+  
+**Where to fly**
+
+*Warning:* Before flying outdoors look for our lesson on how to use L1(power selector). You must set power to 100% when flying outdoors. Also, we recommend to not fly outdoors on windy days.  
+
+**The first flight**
 
 1. Turn on the XDrone by plugging in the battery and placing it on a flat surface within 3 seconds.
 
@@ -30,6 +47,8 @@ This lesson will guide you through the basic steps required to fly the XDrone an
 
 7. To fly left, push right joystick to the left. To fly right, push right joy stick to the right.
 
-8. To turn counter clockwise push left joystick to the left. To turn clockwise push left joystick to the right.
+8. To turn counter clockwise push left joystick to the left. To turn clockwise push left joystick to the right.  
 
-Now you know the basics on how to fly your XDrone. Get as much practice as you can under your belt. Once you have mastered hovering, try flying in patterns. Start by flying your XDrone in a square pattern, then a circle, then a figure 8. After you become an expert at flying in these patterns look for our article on how to do flips and barrel rolls.
+**Moving on**
+
+Now you know the basics on how to fly your XDrone. Get as much practice as you can under your belt. Once you have mastered hovering, try flying in patterns. Start by flying your XDrone in a square pattern, then a circle, then a figure 8. After you become an expert at flying in these patterns look for our lesson on how to do flips and barrel rolls.
