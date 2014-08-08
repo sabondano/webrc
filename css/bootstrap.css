@@ -6816,6 +6816,22 @@ a.thumbnail:focus {
   margin-bottom: 180px;
 }
 
+#two-way-street-background-blurred {
+  background: url(../img/lamborghini-aventador/two-way-street-background-blurred.jpg) no-repeat center center scroll; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  height: 600px; 
+  margin-top: 40px; 
+  margin-bottom: 180px;
+
+}
+
+#webrc-car-controller {
+  margin-top: 60px;
+}
+
 /***** Porsche 911 *****/
 #big-porsche-logo-wallpaper-style {
   background-color: #FAB700;
