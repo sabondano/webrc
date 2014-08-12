@@ -7240,3 +7240,15 @@ hr.style-two {
   margin-bottom: 70px;
 }
 
+/***** Huey Police Page *****/
+#real-huey-police-background {
+  background: url(../img/huey-police/real-huey-police-background.jpg) no-repeat center center scroll; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  height: 600px; 
+  margin-top: 40px; 
+  margin-bottom: 100px;
+
+}
