@@ -7252,3 +7252,16 @@ hr.style-two {
   margin-bottom: 100px;
 
 }
+
+/***** Cobra Fire Rescue Page *****/
+#real-cobra-fire-rescue--background {
+  background: url(../img/cobra-fire-rescue/real-cobra-fire-rescue-background.jpg) no-repeat center center scroll; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  height: 600px; 
+  margin-top: 40px; 
+  margin-bottom: 100px;
+
+}
