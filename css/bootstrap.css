@@ -7222,5 +7222,17 @@ hr.style-two {
   margin-left: 20px;
 }
 
+/***** Black Hawk Special Ops Page *****/
+#real-black-hawk-special-ops-background {
+  background: url(../img/black-hawk-special-ops/real-black-hawk-helicopter-in-action-background.jpg) no-repeat center center scroll; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  height: 600px; 
+  margin-top: 40px; 
+  margin-bottom: 50px;
+
+}
 
 
