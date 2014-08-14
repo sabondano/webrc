@@ -6612,6 +6612,8 @@ a.thumbnail:focus {
 .details-label {
   font-family: 'Coda', cursive;
   color: #222222;
+  margin-top: 20px;
+  margin-bottom: 14px;
   text-rendering: optimizelegibility;
 }
 
@@ -7265,3 +7267,17 @@ hr.style-two {
   margin-bottom: 100px;
 
 }
+
+/***** Details Section - for items with multiple sizes/scale *****/
+.details-multiple-size-item {
+  height: 220px;
+}
+
+.details-multiple-size-item a {
+  cursor: pointer;
+}
+
+#size-2-content {
+  display: none;
+}
+

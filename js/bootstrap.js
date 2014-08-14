@@ -2387,7 +2387,22 @@ $(document).ready(function() {
   });
 });
 
+/* Details section - on product pages with multiple sizes/scales details change */
+$(document).ready(function() {
+  $('#size-2-label').on('click', function(e) {
+    e.preventDefault();
+    $(this).parent().addClass('active').prev().removeClass('active');
+    $('#size-1-content').fadeOut(500);
+    $('#size-2-content').delay(500).fadeIn();
+  });
 
+  $('#size-1-label').on('click', function(e) {
+    e.preventDefault();
+    $(this).parent().addClass('active').next().removeClass('active');
+    $('#size-2-content').fadeOut(500);
+    $('#size-1-content').delay(500).fadeIn();
+  });
+});
 
 
 
