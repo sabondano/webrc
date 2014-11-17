@@ -7281,3 +7281,76 @@ hr.style-two {
   display: none;
 }
 
+
+/***** XDrone Spy *****/
+#xdrone-spy-callouts {
+  background: url(../img/xdrone-spy/xdrone-spy-front-700x450.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  height: 450px; 
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+#xdrone-spy-callouts ul {
+  list-style-type: none;
+}
+
+#xdrone-spy-callout-circle-1 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  top: 315px;
+  left: 286px;
+}
+
+#xdrone-spy-callout-circle-2 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  top: 32px;
+  left: 125px;
+  transform: rotate(90deg);
+   -moz-transform: rotate(90deg);
+   -webkit-transform: rotate(90deg);
+}
+
+#xdrone-spy-callout-circle-3 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  bottom: 40px;
+  left: 545px;
+  transform: rotate(279deg);
+   -moz-transform: rotate(270deg);
+   -webkit-transform: rotate(270deg);
+}
+
+#xdrone-spy-callout-circle-4 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  bottom: 168px;
+  left: 285px;
+  transform: rotate(180deg);
+   -moz-transform: rotate(180deg);
+   -webkit-transform: rotate(180deg);
+}
+
+#xdrone-spy-callout-circle-1:hover,
+#xdrone-spy-callout-circle-2:hover,
+#xdrone-spy-callout-circle-3:hover,
+#xdrone-spy-callout-circle-4:hover {
+  opacity: 1;
+}
+
