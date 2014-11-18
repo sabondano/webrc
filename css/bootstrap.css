@@ -7358,3 +7358,108 @@ hr.style-two {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+
+/***** XDrone hd *****/
+#xdrone-hd-callouts {
+  background: url(../img/xdrone-hd/xdrone-hd-angle-700x450.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  height: 450px; 
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+#xdrone-hd-callouts ul {
+  list-style-type: none;
+}
+
+#xdrone-hd-callout-circle-1 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  top: 268px;
+  left: 328px;
+}
+
+#xdrone-hd-callout-circle-2 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  top: 87px;
+  left: 141px;
+  transform: rotate(180deg);
+   -moz-transform: rotate(180deg);
+   -webkit-transform: rotate(180deg);
+}
+
+#xdrone-hd-callout-circle-3 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  bottom: 96px;
+  left: 594px;
+  transform: rotate(307deg);
+   -moz-transform: rotate(307deg);
+   -webkit-transform: rotate(307deg);
+}
+
+#xdrone-hd-callout-circle-4 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  bottom: 169px;
+  left: 365px;
+  transform: rotate(180deg);
+   -moz-transform: rotate(180deg);
+   -webkit-transform: rotate(180deg);
+}
+
+#xdrone-hd-callout-circle-1:hover,
+#xdrone-hd-callout-circle-2:hover,
+#xdrone-hd-callout-circle-3:hover,
+#xdrone-hd-callout-circle-4:hover {
+  opacity: 1;
+}
+
+.in-the-box-xdrone-hd {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#xdrone-nano-background-galaxy {
+  background: url(../img/xdrone-hd/purple-galaxy.jpg) no-repeat center center scroll; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  height: 600px; 
+  margin-top: 40px; 
+  margin-bottom: 50px;
+
+}
+
+#xdrone-nano-background-sky {
+  background: url(../img/xdrone-hd/river-sky-background.jpg) no-repeat center center scroll; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover; 
+  height: 600px; 
+  margin-top: 90px; 
+  margin-bottom: 90px;
+
+}
+
+.want-it-button {
+  width: 283px;
+}
