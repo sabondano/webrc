@@ -32,7 +32,7 @@ Turn off the helicopter.
 
 *Step 2*
 
-Turn off the controller (only applies charging helicopter using a controller).
+Turn off the controller. This step only applies when charging helicopter using a controller.
 
 *Step 3*
 
@@ -40,11 +40,12 @@ Plug the charging cable (controller, usb, or ac adapter) to the helicopter.
 
 *Step 4*
 
-Turn on the controller (only applies charging helicopter using a controller).
-  
+Turn on the controller. This step only applies when charging helicopter using a controller.
+
 *Step 5*
 
 Wait until the light on your charging device (controller, usb cable, or ac adapter) turns back on. This light turning on indicates your helicopter is fully charged. If your charging device (ac adapter) doesn't have a light please disregard this step and simply unplug your helicopter after the recommended charging time per the instruction manual.  
+
   
 ***
 
