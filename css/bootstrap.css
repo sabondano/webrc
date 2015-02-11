@@ -6246,8 +6246,8 @@ a.badge:focus {
 .arrow-down {
   margin-left: auto;
   margin-right: auto;
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-top: 20px solid #F4F1ED;
@@ -6303,11 +6303,11 @@ a.badge:focus {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  width: 0; 
-  height: 0; 
+  width: 0;
+  height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
-  
+
   border-top: 20px solid #FFFFFF;
 }
 
@@ -6401,7 +6401,7 @@ a.thumbnail:focus {
 }
 
 .feature-row {
-  
+
 }
 
 .mask {
@@ -6499,7 +6499,7 @@ a.thumbnail:focus {
           border-radius: 9px;
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.155);
        -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.155);
-            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.155);            
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.155);
 }
 
 .simple-grey-border {
@@ -6548,7 +6548,7 @@ a.thumbnail:focus {
   margin-top: 30px;
   margin-bottom: 30px;
 }
- 
+
 .features {
   margin-top: 60px;
   margin-bottom: 80px;
@@ -6633,25 +6633,25 @@ a.thumbnail:focus {
 /****** XDrone Nano Page ***********/
 
 #xdrone-nano-background-blurred {
-  background: url(../img/xdrone-nano/xdrone-nano-background-blurred.jpg) no-repeat center center scroll; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 600px; 
-  margin-top: 40px; 
+  background: url(../img/xdrone-nano/xdrone-nano-background-blurred.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  margin-top: 40px;
   margin-bottom: 50px;
 
 }
 
 #xdrone-nano-background {
-  background: url(../img/xdrone-nano/xdrone-nano-background.jpg) no-repeat center center scroll; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 600px; 
-  margin-top: 90px; 
+  background: url(../img/xdrone-nano/xdrone-nano-background.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  margin-top: 90px;
   margin-bottom: 90px;
 
 }
@@ -6668,11 +6668,11 @@ a.thumbnail:focus {
 
 #xdrone-nano-callouts {
   background: url(../img/xdrone-nano/xdrone-nano-angle-700x450.png) no-repeat center center scroll;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 450px; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 450px;
   margin-top: 120px;
   margin-bottom: 120px;
 }
@@ -6762,16 +6762,16 @@ a.thumbnail:focus {
 }
 
 .blackhawk-action-img {
-   position: relative; 
+   position: relative;
    width: 100%; /* for IE 6 */
 }
 
 .blackhawk-brief-facts {
-  position: absolute; 
-  top: 0px; 
-  left: 0; 
-  width: 100%; 
-  color: white; 
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  color: white;
   background: rgb(0, 0, 0); /* fallback color */
   background: rgba(0, 0, 0, 0.7);
   padding: 0px;
@@ -6794,18 +6794,18 @@ a.thumbnail:focus {
 
 /***** Thumbnails *****/
 .thumbnails {
-  margin-top: 1px; 
+  margin-top: 1px;
 }
 
 /***** Lamborghini Aventador ******/
 #big-lamborghini-logo-wallpaper-style {
-  background: url(../img/lamborghini-aventador/big-lamborghini-logo-with-background.jpg) no-repeat center center scroll; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 600px; 
-  margin-top: 40px; 
+  background: url(../img/lamborghini-aventador/big-lamborghini-logo-with-background.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  margin-top: 40px;
   margin-bottom: 50px;
 }
 
@@ -6819,13 +6819,13 @@ a.thumbnail:focus {
 }
 
 #two-way-street-background-blurred {
-  background: url(../img/lamborghini-aventador/two-way-street-background-blurred.jpg) no-repeat center center scroll; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 600px; 
-  margin-top: 40px; 
+  background: url(../img/lamborghini-aventador/two-way-street-background-blurred.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  margin-top: 40px;
   margin-bottom: 180px;
 
 }
@@ -6837,9 +6837,9 @@ a.thumbnail:focus {
 /***** Porsche 911 *****/
 #big-porsche-logo-wallpaper-style {
   background-color: #FAB700;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
   height: 500px;
   padding-top: 60px;
@@ -6866,13 +6866,13 @@ a.thumbnail:focus {
 /***** XDrone Pro *****/
 
 #galaxy1-background {
-  background: url(../img/xdrone-pro/galaxy2.jpg) no-repeat center center scroll; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 600px; 
-  margin-top: 40px; 
+  background: url(../img/xdrone-pro/galaxy2.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  margin-top: 40px;
   margin-bottom: 50px;
 
 }
@@ -6883,13 +6883,13 @@ a.thumbnail:focus {
 }
 
 #galaxy2-background {
-  background: url(../img/xdrone-pro/galaxy1.jpg) no-repeat center center scroll; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 600px; 
-  margin-top: 90px; 
+  background: url(../img/xdrone-pro/galaxy1.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  margin-top: 90px;
   margin-bottom: 90px;
 
 }
@@ -6914,11 +6914,11 @@ a.thumbnail:focus {
 
 #xdrone-pro-callouts {
   background: url(../img/xdrone-pro/xdrone-pro-showing-camera-700x450.jpg) no-repeat center center scroll;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 450px; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 450px;
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -6987,13 +6987,13 @@ a.thumbnail:focus {
 /***** Mini Cooper Page ******/
 
 #big-mini-cooper-logo-wallpaper-style {
-  background: url(../img/mini-cooper/big-mini-cooper-with-background.jpg) no-repeat center center scroll; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 600px; 
-  margin-top: 40px; 
+  background: url(../img/mini-cooper/big-mini-cooper-with-background.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  margin-top: 40px;
   margin-bottom: 50px;
 
 }
@@ -7006,29 +7006,29 @@ a.thumbnail:focus {
 /***** Mercedes Benz *****/
 
 #big-mercedes-benz-logo-wallpaper-style {
-  background: url(../img/mercedes-benz-slk350/mercedes-benz-logo.jpg) no-repeat center center scroll; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 600px; 
-  margin-top: 40px; 
+  background: url(../img/mercedes-benz-slk350/mercedes-benz-logo.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  margin-top: 40px;
   margin-bottom: 50px;
 }
 
 #mercedes-benz-logo {
-  
+
 }
 
 /***** Iron Eagle 2 *****/
 
 #iron-eagle-callouts {
   background: url(../img/iron-eagle-2/iron-eagle-2-700x450.jpg) no-repeat center center scroll;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 450px; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 450px;
   margin-top: 120px;
   margin-bottom: 120px;
 }
@@ -7098,13 +7098,13 @@ a.thumbnail:focus {
 
 
 #iron-eagle-background-blurred {
-  background: url(../img/iron-eagle-2/iron-eagle-background-blurred.jpg) no-repeat center center scroll; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 600px; 
-  margin-top: 40px; 
+  background: url(../img/iron-eagle-2/iron-eagle-background-blurred.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  margin-top: 40px;
   margin-bottom: 50px;
 }
 
@@ -7113,13 +7113,13 @@ a.thumbnail:focus {
 }
 
 #iron-eagle-background {
-  background: url(../img/iron-eagle-2/iron-eagle-background.jpg) no-repeat center center scroll; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 600px; 
-  margin-top: 90px; 
+  background: url(../img/iron-eagle-2/iron-eagle-background.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  margin-top: 90px;
   margin-bottom: 90px;
 
 }
@@ -7191,10 +7191,10 @@ footer h4, footer strong {
 hr.style-two {
     border: 0;
     height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(255, 255, 255, 0.4), rgba(0,0,0,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(255, 255, 255, 0.4), rgba(0,0,0,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(255, 255, 255, 0.4), rgba(0,0,0,0)); 
-    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(255, 255, 255, 0.4), rgba(0,0,0,0)); 
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(255, 255, 255, 0.4), rgba(0,0,0,0));
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(255, 255, 255, 0.4), rgba(0,0,0,0));
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(255, 255, 255, 0.4), rgba(0,0,0,0));
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(255, 255, 255, 0.4), rgba(0,0,0,0));
 }
 
 /*****About Us Page *****/
@@ -7226,13 +7226,13 @@ hr.style-two {
 
 /***** Black Hawk Special Ops Page *****/
 #real-black-hawk-special-ops-background {
-  background: url(../img/black-hawk-special-ops/real-black-hawk-helicopter-in-action-background.jpg) no-repeat center center scroll; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 600px; 
-  margin-top: 40px; 
+  background: url(../img/black-hawk-special-ops/real-black-hawk-helicopter-in-action-background.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  margin-top: 40px;
   margin-bottom: 100px;
 
 }
@@ -7244,26 +7244,26 @@ hr.style-two {
 
 /***** Huey Police Page *****/
 #real-huey-police-background {
-  background: url(../img/huey-police/real-huey-police-background.jpg) no-repeat center center scroll; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 600px; 
-  margin-top: 40px; 
+  background: url(../img/huey-police/real-huey-police-background.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  margin-top: 40px;
   margin-bottom: 100px;
 
 }
 
 /***** Cobra Fire Rescue Page *****/
 #real-cobra-fire-rescue--background {
-  background: url(../img/cobra-fire-rescue/real-cobra-fire-rescue-background.jpg) no-repeat center center scroll; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 600px; 
-  margin-top: 40px; 
+  background: url(../img/cobra-fire-rescue/real-cobra-fire-rescue-background.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  margin-top: 40px;
   margin-bottom: 100px;
 
 }
@@ -7285,11 +7285,11 @@ hr.style-two {
 /***** XDrone Spy *****/
 #xdrone-spy-callouts {
   background: url(../img/xdrone-spy/xdrone-spy-front-700x450.jpg) no-repeat center center scroll;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 450px; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 450px;
   margin-top: 120px;
   margin-bottom: 120px;
 }
@@ -7362,11 +7362,11 @@ hr.style-two {
 /***** XDrone hd *****/
 #xdrone-hd-callouts {
   background: url(../img/xdrone-hd/xdrone-hd-angle-700x450.jpg) no-repeat center center scroll;
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 450px; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 450px;
   margin-top: 120px;
   margin-bottom: 120px;
 }
@@ -7437,29 +7437,109 @@ hr.style-two {
 }
 
 #xdrone-nano-background-galaxy {
-  background: url(../img/xdrone-hd/purple-galaxy.jpg) no-repeat center center scroll; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 600px; 
-  margin-top: 40px; 
+  background: url(../img/xdrone-hd/purple-galaxy.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  margin-top: 40px;
   margin-bottom: 50px;
 
 }
 
 #xdrone-nano-background-sky {
-  background: url(../img/xdrone-hd/river-sky-background.jpg) no-repeat center center scroll; 
-  -webkit-background-size: cover; 
-  -moz-background-size: cover; 
-  -o-background-size: cover; 
-  background-size: cover; 
-  height: 600px; 
-  margin-top: 90px; 
+  background: url(../img/xdrone-hd/river-sky-background.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  margin-top: 90px;
   margin-bottom: 90px;
 
 }
 
 .want-it-button {
   width: 283px;
+}
+
+/***** Iron Eagle *****/
+
+#iron-eagle-2015-callouts {
+  background: url(../img/iron-eagle/iron-eagle-700x450.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 450px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+#iron-eagle-2015-callouts ul {
+  list-style-type: none;
+}
+
+/*LED Light*/
+#iron-eagle-2015-callout-circle-1 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  top: 369px;
+  left: 99px;
+  transform: rotate(50deg);
+   -moz-transform: rotate(50deg);
+   -webkit-transform: rotate(50deg);
+}
+
+/*Metal Chasis*/
+#iron-eagle-2015-callout-circle-2 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  top: 245px;
+  left: 319px;
+  transform: rotate(0deg);
+   -moz-transform: rotate(0deg);
+   -webkit-transform: rotate(0deg);
+}
+
+/*Sturdy ABS Plastic*/
+#iron-eagle-2015-callout-circle-3 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  top: 35px;
+  left: 547px;
+  transform: rotate(270deg);
+   -moz-transform: rotate(270deg);
+   -webkit-transform: rotate(270deg);
+}
+
+/*Multi-rotor Technology*/
+#iron-eagle-2015-callout-circle-4 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  bottom: 304px;
+  left: 165px;
+  transform: rotate(180deg);
+   -moz-transform: rotate(180deg);
+   -webkit-transform: rotate(180deg);
+}
+
+#iron-eagle-2015-callout-circle-1:hover,
+#iron-eagle-2015-callout-circle-2:hover,
+#iron-eagle-2015-callout-circle-3:hover,
+#iron-eagle-2015-callout-circle-4:hover {
+  opacity: 1;
 }
