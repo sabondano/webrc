@@ -7560,3 +7560,15 @@ hr.style-two {
 #trusted-by-retailer-logos {
     margin-bottom: 30px;
 }
+
+/***** Hummer H2 SUT ******/
+#big-hummer-logo-wallpaper-style {
+  background: url(../img/hummer-h2-sut/hummer_logo.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
