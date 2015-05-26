@@ -7572,3 +7572,15 @@ hr.style-two {
   margin-top: 40px;
   margin-bottom: 50px;
 }
+
+/***** Camaro ******/
+#big-camaro-logo-wallpaper-style {
+  background: url(../img/camaro/chevrolet_logo_with_background.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 600px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+}
