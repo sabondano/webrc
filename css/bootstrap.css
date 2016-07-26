@@ -7870,7 +7870,7 @@ hr.style-two {
 }
 
 #xdrone-zepto-callouts {
-  background: url(../img/xdrone-zepto/xdrone-zepto-angle-700x450.png) no-repeat center center scroll;
+  background: url(../img/xdrone-zepto/xdrone-zepto-angle-700x450.jpg) no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7937,5 +7937,76 @@ hr.style-two {
 #xdrone-zepto-callout-circle-2:hover,
 #xdrone-zepto-callout-circle-3:hover,
 #xdrone-zepto-callout-circle-4:hover {
+  opacity: 1;
+}
+
+#xdrone-warriors-callouts {
+  background: url(../img/xdrone-warriors/xdrone-warriors-angle-700x450.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 450px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+#xdrone-warriors-callouts ul {
+  list-style-type: none;
+}
+
+#xdrone-warriors-callout-circle-1 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  top: 246px;
+  left: 325px;
+  transform: rotate(270deg);
+   -moz-transform: rotate(270deg);
+   -webkit-transform: rotate(270deg);
+}
+
+#xdrone-warriors-callout-circle-2 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  top: 180px;
+  left: 70px;
+  transform: rotate(90deg);
+   -moz-transform: rotate(90deg);
+   -webkit-transform: rotate(90deg);
+}
+
+#xdrone-warriors-callout-circle-3 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  bottom: 40px;
+  left: 451px;
+}
+
+#xdrone-warriors-callout-circle-4 {
+  opacity: 0.8;
+  display: block;
+  width: 78px;
+  height: 82px;
+  position: relative;
+  bottom: 137px;
+  left: 202px;
+  transform: rotate(180deg);
+   -moz-transform: rotate(180deg);
+   -webkit-transform: rotate(180deg);
+}
+
+#xdrone-warriors-callout-circle-1:hover,
+#xdrone-warriors-callout-circle-2:hover,
+#xdrone-warriors-callout-circle-3:hover,
+#xdrone-warriors-callout-circle-4:hover {
   opacity: 1;
 }
